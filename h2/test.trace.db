@@ -1,0 +1,170 @@
+2022-08-10 18:52:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user(\000d\000aid int primary key,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null)"; expected "identifier"; SQL statement:
+create table user(
+id int primary key,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null) [42001-214]
+2022-08-10 18:53:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user(\000d\000aid int primary key,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null)"; expected "identifier"; SQL statement:
+create table user(
+id int primary key,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null) [42001-214]
+2022-08-10 18:53:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user(\000d\000aid int primary key,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null)"; expected "identifier"; SQL statement:
+create table user(
+id int primary key,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null) [42001-214]
+2022-08-10 18:53:15 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user(\000d\000aid int primary key,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null)"; expected "identifier"; SQL statement:
+create table user(
+id int primary key,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null) [42001-214]
+2022-08-10 18:53:58 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user(\000d\000aid int primary key auto_increment,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null)"; expected "identifier"; SQL statement:
+create table user(
+id int primary key auto_increment,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null) [42001-214]
+2022-08-10 18:53:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user(\000d\000aid int primary key auto_increment,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null)"; expected "identifier"; SQL statement:
+create table user(
+id int primary key auto_increment,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null) [42001-214]
+2022-08-10 18:56:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user(\000d\000aid auto_increment,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null,\000d\000aprimary key(id))"; expected "identifier"; SQL statement:
+create table user(
+id auto_increment,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null,
+primary key(id)) [42001-214]
+2022-08-10 18:56:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user(\000d\000aid auto_increment,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null,\000d\000aprimary key(id))"; expected "identifier"; SQL statement:
+create table user(
+id auto_increment,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null,
+primary key(id)) [42001-214]
+2022-08-10 18:57:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]user(\000d\000aid auto_increment,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null,\000d\000aprimary key(id)\000d\000a)"; expected "identifier"; SQL statement:
+CREATE TABLE user(
+id auto_increment,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null,
+primary key(id)
+) [42001-214]
+2022-08-10 18:57:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]user(\000d\000aid auto_increment,\000d\000ausername varchar(20) not null,\000d\000aemail varchar(60) not null,\000d\000apassword varchar(255) not null,\000d\000arole varchar(10) not null,\000d\000aprimary key(id)\000d\000a)"; expected "identifier"; SQL statement:
+CREATE TABLE user(
+id auto_increment,
+username varchar(20) not null,
+email varchar(60) not null,
+password varchar(255) not null,
+role varchar(10) not null,
+primary key(id)
+) [42001-214]
+2022-08-10 18:59:23 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]user(\000d\000aid auto_increment,\000d\000ausername varchar(20) NOT NULLl,\000d\000aemail varchar(60) NOT NULL,\000d\000apassword varchar(255) NOT NULL,\000d\000arole varchar(10)NOT NULLl,\000d\000aprimary key(id)\000d\000a)"; expected "identifier"; SQL statement:
+CREATE TABLE user(
+id auto_increment,
+username varchar(20) NOT NULLl,
+email varchar(60) NOT NULL,
+password varchar(255) NOT NULL,
+role varchar(10)NOT NULLl,
+primary key(id)
+) [42001-214]
+2022-08-10 19:00:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]user(\000d\000aid AUTO_INCREMENT,\000d\000ausername varchar(20) NOT NULLl,\000d\000aemail varchar(60) NOT NULL,\000d\000apassword varchar(255) NOT NULL,\000d\000arole varchar(10)NOT NULL,\000d\000aPRIMARY KEY(id)\000d\000a)"; expected "identifier"; SQL statement:
+CREATE TABLE user(
+id AUTO_INCREMENT,
+username varchar(20) NOT NULLl,
+email varchar(60) NOT NULL,
+password varchar(255) NOT NULL,
+role varchar(10)NOT NULL,
+PRIMARY KEY(id)
+) [42001-214]
+2022-08-10 19:00:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]user(\000d\000aid AUTO_INCREMENT,\000d\000ausername varchar(20) NOT NULLl,\000d\000aemail varchar(60) NOT NULL,\000d\000apassword varchar(255) NOT NULL,\000d\000arole varchar(10)NOT NULL,\000d\000aPRIMARY KEY(id)\000d\000a)"; expected "identifier"; SQL statement:
+CREATE TABLE user(
+id AUTO_INCREMENT,
+username varchar(20) NOT NULLl,
+email varchar(60) NOT NULL,
+password varchar(255) NOT NULL,
+role varchar(10)NOT NULL,
+PRIMARY KEY(id)
+) [42001-214]
+2022-08-10 19:00:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]user(\000d\000aid AUTO_INCREMENT,\000d\000ausername varchar(20) NOT NULLl,\000d\000aemail varchar(60) NOT NULL,\000d\000apassword varchar(255) NOT NULL,\000d\000arole varchar(10)NOT NULL,\000d\000aPRIMARY KEY(id)\000d\000a)"; expected "identifier"; SQL statement:
+CREATE TABLE user(
+id AUTO_INCREMENT,
+username varchar(20) NOT NULLl,
+email varchar(60) NOT NULL,
+password varchar(255) NOT NULL,
+role varchar(10)NOT NULL,
+PRIMARY KEY(id)
+) [42001-214]
+2022-08-10 19:00:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]user(\000d\000aid AUTO_INCREMENT,\000d\000ausername varchar(20) NOT NULLl,\000d\000aemail varchar(60) NOT NULL,\000d\000apassword varchar(255) NOT NULL,\000d\000arole varchar(10)NOT NULL,\000d\000aPRIMARY KEY(id)\000d\000a)"; expected "identifier"; SQL statement:
+CREATE TABLE user(
+id AUTO_INCREMENT,
+username varchar(20) NOT NULLl,
+email varchar(60) NOT NULL,
+password varchar(255) NOT NULL,
+role varchar(10)NOT NULL,
+PRIMARY KEY(id)
+) [42001-214]
+2022-08-10 19:00:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]user(\000d\000aid AUTO_INCREMENT,\000d\000ausername varchar(20) NOT NULLl,\000d\000aemail varchar(60) NOT NULL,\000d\000apassword varchar(255) NOT NULL,\000d\000arole varchar(10)NOT NULL,\000d\000aPRIMARY KEY(id)\000d\000a)"; expected "identifier"; SQL statement:
+CREATE TABLE user(
+id AUTO_INCREMENT,
+username varchar(20) NOT NULLl,
+email varchar(60) NOT NULL,
+password varchar(255) NOT NULL,
+role varchar(10)NOT NULL,
+PRIMARY KEY(id)
+) [42001-214]
+2022-08-10 19:00:32 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS members (\000d\000a  m_num bigint[*](5) NOT NULL AUTO_INCREMENT,\000d\000a  name varchar(100) NOT NULL,\000d\000a  age int(3) NOT NULL,\000d\000a  PRIMARY KEY (m_num)\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS members (
+  m_num bigint(5) NOT NULL AUTO_INCREMENT,
+  name varchar(100) NOT NULL,
+  age int(3) NOT NULL,
+  PRIMARY KEY (m_num)
+) [42001-214]
+2022-08-10 19:00:59 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS members (\000d\000a  m_num bigint[*](5) NOT NULL AUTO_INCREMENT,\000d\000a  name varchar(100) NOT NULL,\000d\000a  age int(3) NOT NULL,\000d\000a  PRIMARY KEY (m_num)\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS members (
+  m_num bigint(5) NOT NULL AUTO_INCREMENT,
+  name varchar(100) NOT NULL,
+  age int(3) NOT NULL,
+  PRIMARY KEY (m_num)
+) [42001-214]
+2022-08-10 19:01:14 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS members (\000d\000a  m_num bigint[*](5) NOT NULL AUTO_INCREMENT,\000d\000a  name varchar(100) NOT NULL,\000d\000a  age int(3) NOT NULL,\000d\000a  PRIMARY KEY (m_num)\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS members (
+  m_num bigint(5) NOT NULL AUTO_INCREMENT,
+  name varchar(100) NOT NULL,
+  age int(3) NOT NULL,
+  PRIMARY KEY (m_num)
+) [42001-214]
